@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { MessiComponent } from './messi/messi.component';
+import { NeymarComponent } from './neymar/neymar.component';
+import { PlayerComponent } from './player/player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    MessiComponent,
+    NeymarComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,
